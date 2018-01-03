@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_marginTop="?attr/actionBarSize"
+    android:layout_above="@id/navigasion"
+    android:layout_height="match_parent"
+    tools:context="com.betaproject.bimbinganibadahv10.Rukun_sholat">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="2dp"
+        android:background="@drawable/backroundtransparant">
+        <com.uncopt.android.widget.text.justify.JustifiedTextView
+            android:layout_width="match_parent"
+            android:lineSpacingExtra="10dp"
+            android:padding="5dp"
+            android:textSize="15dp"
+            android:textColor="@android:color/black"
+            android:layout_height="match_parent"
+            android:text="@string/Rukun_sholat"/>
+    </ScrollView>
+
+
+
+</LinearLayout>

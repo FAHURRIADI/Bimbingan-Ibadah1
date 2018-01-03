@@ -1,0 +1,58 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_above="@id/navigasion"
+    android:layout_marginTop="?attr/actionBarSize"
+    android:orientation="vertical"
+    tools:context="com.betaproject.bimbinganibadahv10.InformasiAplikasiFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_margin="2dp"
+        android:background="@drawable/backroundtransparant"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="3">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.8"
+            android:gravity="center"
+            android:text="Ucapan Terima kasih Kepada"
+            android:textColor="@android:color/black"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.8"
+            android:gravity="center"
+            android:text="@string/ucapan_trimakasih"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.8"
+            android:gravity="center"
+            android:text="Sumber Materi Aplikasi"
+            android:textColor="@android:color/black"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.8"
+            android:gravity="center"
+            android:text="@string/sumber_materi"
+            android:textColor="@android:color/black" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

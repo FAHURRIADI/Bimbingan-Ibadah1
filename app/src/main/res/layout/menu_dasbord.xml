@@ -1,0 +1,119 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_above="@id/navigasion"
+    android:layout_marginTop="?attr/actionBarSize"
+    android:orientation="vertical"
+    android:weightSum="3"
+    tools:context="com.betaproject.bimbinganibadahv10.DashboardFragment">
+
+
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:background="@drawable/backroundtransparant"
+        android:layout_weight="1">
+        <TextClock
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="50dp"
+            android:layout_weight="1"
+            android:gravity="center" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_margin="5dp"
+            android:orientation="vertical"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/wudhu"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/backroundtransparant"
+                android:drawableTop="@drawable/ic_wudhu"
+                android:paddingTop="50dp"
+                android:textSize="15dp"
+                android:text="Wudhu"
+                android:textAllCaps="false" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_margin="5dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+            <Button
+                android:id="@+id/sholat"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/backroundtransparant"
+                android:drawableTop="@drawable/ic_sholat"
+                android:paddingTop="50dp"
+                android:textSize="15dp"
+                android:text="Sholat"
+                android:textAllCaps="false"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="2">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_margin="5dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/wirid"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/backroundtransparant"
+                android:drawableTop="@drawable/ic_wirid"
+                android:paddingTop="50dp"
+                android:textSize="15dp"
+                android:text="wirid"
+                android:textAllCaps="false"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_margin="5dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+            <Button
+                android:id="@+id/doa"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/backroundtransparant"
+                android:drawableTop="@drawable/ic_doa"
+                android:paddingTop="50dp"
+                android:textSize="15dp"
+                android:text="Doa"
+                android:textAllCaps="false"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+    </LinearLayout>

@@ -1,0 +1,28 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_above="@id/navigasion"
+    android:layout_marginTop="?attr/actionBarSize"
+    tools:context="com.betaproject.bimbinganibadahv10.CalenderFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:background="@drawable/backroundtransparant">
+        <com.prolificinteractive.materialcalendarview.MaterialCalendarView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:mcv_showOtherDates="all"
+            app:mcv_firstDayOfWeek="sunday"
+            app:mcv_allowClickDaysOutsideCurrentMonth="true"
+            app:mcv_arrowColor="@android:color/holo_blue_bright"/>
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
