@@ -6,7 +6,7 @@
     android:id="@+id/cont"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/ic_back"
+    android:background="@drawable/masjid"
     android:orientation="vertical"
     tools:context="com.betaproject.bimbinganibadahv10.MainActivity">
 
@@ -18,7 +18,7 @@
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
-            android:background="@color/colorbiru" />
+            android:background="@color/hijau" />
 
     </android.support.design.widget.AppBarLayout>
 
